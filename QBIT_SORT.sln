@@ -17,9 +17,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Результаты оли
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Сортировка", "Сортировка\Сортировка.csproj", "{C5287C14-A8AA-44D3-A716-0D618F65F12D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Библиотечный метод", "Библиотечный метод\Библиотечный метод.csproj", "{6F33C258-7D87-4246-9FE1-42EC76F8C361}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Библиотечный метод", "Библиотечный метод\Библиотечный метод.csproj", "{6F33C258-7D87-4246-9FE1-42EC76F8C361}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Метод минимума", "Метод минимума\Метод минимума.csproj", "{381B3D1D-3C42-4D86-985B-AAE9C17326CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Метод минимума", "Метод минимума\Метод минимума.csproj", "{381B3D1D-3C42-4D86-985B-AAE9C17326CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Библиотечный метод1", "Библиотечный метод1\Библиотечный метод1.csproj", "{0D451818-2EAA-4DAC-B9BB-65D98A6DDA9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Сортировка пузырьком", "Сортировка пузырьком\Сортировка пузырьком.csproj", "{DB625A0E-8F32-4F21-B0C4-5B489B23A611}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Вставка элемента", "Вставка элемента\Вставка элемента.csproj", "{F968D76C-5633-4447-BCA3-B0D014C65252}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Удаление элемента", "Удаление элемента\Удаление элемента.csproj", "{371729DE-4E22-4798-B33C-BB9E2C334788}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Второй по величине элемент", "Второй по величине элемент\Второй по величине элемент.csproj", "{AFE448DD-AEF9-4869-910A-F4D47167DE2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Сортировка - отрицательные и положительные", "Сортировка - отрицательные и положительные\Сортировка - отрицательные и положительные.csproj", "{AA6DBFA7-EA59-4392-8AE6-A3BD7C628C96}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +75,30 @@ Global
 		{381B3D1D-3C42-4D86-985B-AAE9C17326CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{381B3D1D-3C42-4D86-985B-AAE9C17326CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{381B3D1D-3C42-4D86-985B-AAE9C17326CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D451818-2EAA-4DAC-B9BB-65D98A6DDA9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D451818-2EAA-4DAC-B9BB-65D98A6DDA9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D451818-2EAA-4DAC-B9BB-65D98A6DDA9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D451818-2EAA-4DAC-B9BB-65D98A6DDA9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB625A0E-8F32-4F21-B0C4-5B489B23A611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB625A0E-8F32-4F21-B0C4-5B489B23A611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB625A0E-8F32-4F21-B0C4-5B489B23A611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB625A0E-8F32-4F21-B0C4-5B489B23A611}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F968D76C-5633-4447-BCA3-B0D014C65252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F968D76C-5633-4447-BCA3-B0D014C65252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F968D76C-5633-4447-BCA3-B0D014C65252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F968D76C-5633-4447-BCA3-B0D014C65252}.Release|Any CPU.Build.0 = Release|Any CPU
+		{371729DE-4E22-4798-B33C-BB9E2C334788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{371729DE-4E22-4798-B33C-BB9E2C334788}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{371729DE-4E22-4798-B33C-BB9E2C334788}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{371729DE-4E22-4798-B33C-BB9E2C334788}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFE448DD-AEF9-4869-910A-F4D47167DE2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFE448DD-AEF9-4869-910A-F4D47167DE2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFE448DD-AEF9-4869-910A-F4D47167DE2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFE448DD-AEF9-4869-910A-F4D47167DE2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA6DBFA7-EA59-4392-8AE6-A3BD7C628C96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA6DBFA7-EA59-4392-8AE6-A3BD7C628C96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA6DBFA7-EA59-4392-8AE6-A3BD7C628C96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA6DBFA7-EA59-4392-8AE6-A3BD7C628C96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

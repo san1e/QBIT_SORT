@@ -1,15 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using System.Net.Http;
-using System.Threading;
-using System.Threading.Tasks;
-namespace Библиотечный_метод
+
+namespace Библиотечный_метод1
 {
     internal class Program
     {
-         static void SelectionSort(int[] arr)
+        static void SelectionSort(int[] arr)
         {
             int n = arr.Length;
             for (int i = 1; i < n; ++i)
@@ -30,7 +26,7 @@ namespace Библиотечный_метод
                     Console.WriteLine(str);
                 }
             }
-            
+
         }
         static void Main(string[] args)
         {
