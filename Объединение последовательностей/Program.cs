@@ -6,33 +6,42 @@ namespace Объединение_последовательностей
     {
         static void Main(string[] args)
         {
-            int k = int.Parse(Console.ReadLine());
+            double k = int.Parse(Console.ReadLine());
 
-            int i = 1;
-            int j = 1;
-            int c = 1;
+            double i = 1;
+            double j = 1;
+            double a = i;
+            double b = i;
+            double sum = 0;
+            int count = 0;
 
-            while (c <= k)
+            while (count < k)
             {
-                if (Math.Pow(i,2) < Math.Pow(j,3))
+                a = i * i;
+                b = j * j * j;
+
+                if (a < b)
                 {
-                    c++;
+                    sum = a ;
                     i++;
+                    count++;
                 }
-                else if (Math.Pow(i,2) >Math.Pow(j,3))
+                else if (a>b)
                 {
-                    c++;
+                    sum = b ;
                     j++;
+                    count++;
                 }
-                else
-                { 
-                    c++;
+                else if (a == b)
+                {
+                    sum = a; 
                     i++;
                     j++;
+                    count++;
                 }
             }
 
-            Console.WriteLine((i - 1) * (i - 1));
+            Console.WriteLine(sum);
         }
     }
 }

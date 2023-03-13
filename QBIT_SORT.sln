@@ -3,19 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QBIT_SORT", "QBIT_SORT\QBIT_SORT.csproj", "{6DCCCEC9-02E6-4A34-BFF2-6B8C377B9022}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QBIT_SORT", "QBIT_SORT\QBIT_SORT.csproj", "{6DCCCEC9-02E6-4A34-BFF2-6B8C377B9022}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Следующий после минимального", "Следующий после минимального\Следующий после минимального.csproj", "{A6970774-A5A9-45BF-B371-1A130C6DDC21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Следующий после минимального", "Следующий после минимального\Следующий после минимального.csproj", "{A6970774-A5A9-45BF-B371-1A130C6DDC21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Сортировка - чётные и нечётные", "Сортировка - чётные и нечётные\Сортировка - чётные и нечётные.csproj", "{55D84AB4-4378-47AA-9364-4C5C240E5351}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Сортировка - чётные и нечётные", "Сортировка - чётные и нечётные\Сортировка - чётные и нечётные.csproj", "{55D84AB4-4378-47AA-9364-4C5C240E5351}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Сортировка модулей", "Сортировка модулей\Сортировка модулей.csproj", "{ECB4DAF7-AA56-4B66-A5F3-BA9340A55E69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Сортировка модулей", "Сортировка модулей\Сортировка модулей.csproj", "{ECB4DAF7-AA56-4B66-A5F3-BA9340A55E69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Объединение последовательностей", "Объединение последовательностей\Объединение последовательностей.csproj", "{4BA8A197-CE03-4ECD-9B19-B1524EC09F57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Объединение последовательностей", "Объединение последовательностей\Объединение последовательностей.csproj", "{4BA8A197-CE03-4ECD-9B19-B1524EC09F57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Результаты олимпиады", "Результаты олимпиады\Результаты олимпиады.csproj", "{25E23DBB-E411-4B3D-BC67-694FCF938395}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Результаты олимпиады", "Результаты олимпиады\Результаты олимпиады.csproj", "{25E23DBB-E411-4B3D-BC67-694FCF938395}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Сортировка", "Сортировка\Сортировка.csproj", "{C5287C14-A8AA-44D3-A716-0D618F65F12D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Сортировка", "Сортировка\Сортировка.csproj", "{C5287C14-A8AA-44D3-A716-0D618F65F12D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Библиотечный метод", "Библиотечный метод\Библиотечный метод.csproj", "{6F33C258-7D87-4246-9FE1-42EC76F8C361}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Метод минимума", "Метод минимума\Метод минимума.csproj", "{381B3D1D-3C42-4D86-985B-AAE9C17326CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{C5287C14-A8AA-44D3-A716-0D618F65F12D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5287C14-A8AA-44D3-A716-0D618F65F12D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5287C14-A8AA-44D3-A716-0D618F65F12D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F33C258-7D87-4246-9FE1-42EC76F8C361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F33C258-7D87-4246-9FE1-42EC76F8C361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F33C258-7D87-4246-9FE1-42EC76F8C361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F33C258-7D87-4246-9FE1-42EC76F8C361}.Release|Any CPU.Build.0 = Release|Any CPU
+		{381B3D1D-3C42-4D86-985B-AAE9C17326CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{381B3D1D-3C42-4D86-985B-AAE9C17326CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{381B3D1D-3C42-4D86-985B-AAE9C17326CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{381B3D1D-3C42-4D86-985B-AAE9C17326CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
