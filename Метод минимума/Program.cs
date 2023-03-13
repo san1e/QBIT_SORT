@@ -13,6 +13,7 @@ namespace Метод_минимума
                 int numOfMin = i;
                 for (int j = i; j < arr.Length; j++)
                 {
+
                     if (min > arr[j])
                     {
                         min = arr[j];
